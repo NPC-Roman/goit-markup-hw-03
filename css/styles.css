@@ -284,7 +284,7 @@ body {
 
 .header-list {
   display: flex;
-  margin-left: 76px;
+  /*margin-left: 76px;*/
   padding: 24px 0;
 }
 
