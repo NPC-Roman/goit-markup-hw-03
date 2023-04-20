@@ -19,12 +19,12 @@
   </head>
   <body>
     <!--NAVIGATION-->
-    <header class="header-bottom">
+    <header class="header-underline">
       <div class="header-section container">
         <nav class="header-nav">
-          <a class="logo-web link" href="./"
-            >web<span class="logo-studio">studio</span></a
-          >
+          <a class="logo-web link" href="./">
+            web<span class="logo-studio">studio</span>
+          </a>
           <ul class="header-list list">
             <li>
               <a class="header-item link" href="./index.html">Studio</a>
@@ -37,42 +37,48 @@
             </li>
           </ul>
         </nav>
-
         <address class="header-nav link">
           <ul class="header-address-list list">
             <li>
-              <a class="mail-tel link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="mail-tel link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
             </li>
             <li>
-              <a class="mail-tel link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+              <a class="mail-tel link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
       </div>
     </header>
     <!--END NAVIGATION-->
+    <!--MAIN-->
     <main>
       <!--PORTFOLIO BREADCRUMBS-->
-      <section>
+      <section class="portfolio-section">
         <div class="container">
-          <h1 hidden>Web-Sturdio Portfolio</h1>
+          <h1 class="hidden-slogan">Web-Sturdio Portfolio</h1>
           <ul class="breadcrumbs-list list">
-            <li><button class="breadcrumbs" type="button">All</button></li>
-            <li><button class="breadcrumbs" type="button">Web Site</button></li>
-            <li><button class="breadcrumbs" type="button">App</button></li>
-            <li><button class="breadcrumbs" type="button">Design</button></li>
             <li>
-              <button class="breadcrumbs" type="button">Marketing</button>
+              <button class="breadcrumbs-btn" type="button">All</button>
+            </li>
+            <li>
+              <button class="breadcrumbs-btn" type="button">Web Site</button>
+            </li>
+            <li>
+              <button class="breadcrumbs-btn" type="button">App</button>
+            </li>
+            <li>
+              <button class="breadcrumbs-btn" type="button">Design</button>
+            </li>
+            <li>
+              <button class="breadcrumbs-btn" type="button">Marketing</button>
             </li>
           </ul>
-        </div>
-        <!--END PORTFOLIO BREADCRUMBS-->
-        <!--PORTFOLIO GALLERY-->
-        <div class="container">
+          <!--END PORTFOLIO BREADCRUMBS-->
+          <!--PORTFOLIO GALLERY-->
           <ul class="portfolio-list list">
             <li class="portfolio-item">
               <a class="link" href="">
@@ -82,9 +88,13 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Banking App Interface Concept</h2>
-                <p class="portfolio-text">App</p></a
-              >
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="portfolio-text">App</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
               <a class="link" href="">
@@ -94,9 +104,11 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Cashless Payment</h2>
-                <p class="portfolio-text">Marketing</p></a
-              >
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Cashless Payment</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
               <a class="link" href="">
@@ -106,9 +118,11 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Meditation App</h2>
-                <p class="portfolio-text">App</p></a
-              >
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Meditation App</h2>
+                  <p class="portfolio-text">App</p>
+                </div>
+              </a>
             </li>
             <li class="portfolio-item">
               <a class="link" href="">
@@ -118,8 +132,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Taxi Service</h2>
-                <p class="portfolio-text">Marketing</p></a
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Taxi Service</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div></a
               >
             </li>
             <li class="portfolio-item">
@@ -130,8 +146,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Screen Illustrations</h2>
-                <p class="portfolio-text">Design</p></a
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Screen Illustrations</h2>
+                  <p class="portfolio-text">Design</p>
+                </div></a
               >
             </li>
             <li class="portfolio-item">
@@ -142,8 +160,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Online Courses</h2>
-                <p class="portfolio-text">Marketing</p></a
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Online Courses</h2>
+                  <p class="portfolio-text">Marketing</p>
+                </div></a
               >
             </li>
             <li class="portfolio-item">
@@ -154,8 +174,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Instagram Stories Concept</h2>
-                <p class="portfolio-text">Design</p></a
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Instagram Stories Concept</h2>
+                  <p class="portfolio-text">Design</p>
+                </div></a
               >
             </li>
             <li class="portfolio-item">
@@ -166,8 +188,10 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Organic Food</h2>
-                <p class="portfolio-text">Web Site</p></a
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Organic Food</h2>
+                  <p class="portfolio-text">Web Site</p>
+                </div></a
               >
             </li>
             <li class="portfolio-item">
@@ -178,22 +202,24 @@
                   width="360"
                   height="300"
                 />
-                <h2 class="suptitle-text">Fresh Coffee</h2>
-                <p class="portfolio-text">Web Site</p></a
-              >
+                <div class="portfolio-item-container">
+                  <h2 class="portfolio-suptitle">Fresh Coffee</h2>
+                  <p class="portfolio-text">Web Site</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
       </section>
       <!--END PORTFOLIO GALLERY-->
     </main>
+    <!--END MAIN-->
     <!--FOOTER-->
     <footer class="footer-section">
       <div class="container">
-        <a class="footer-logo link" href="index.html"
-          >web<span class="footer-studio">Studio</span></a
-        >
-
+        <a class="footer-logo link" href="index.html">
+          web<span class="footer-studio">Studio</span>
+        </a>
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
